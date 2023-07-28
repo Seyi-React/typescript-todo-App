@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+
+
+
+body {
+  font-family: 'Edu NSW ACT Foundation';
+  scroll-behavior: smooth;
+  background-color:cadetblue;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.taskify-div h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  margin-top: 40px;
+  letter-spacing: 4px;
+}
+.input-work  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+}
+.input-box {
+  width: 22em;
+  border-radius: 50px;
+  height: 2.5rem;
+  outline: none;
+  border: none;
+  position: relative;
+  top: 30px;
+}
+::placeholder {
+  position: absolute;
+  top: 13px;
+  left: 18px;
+  font-size: 17px;
+  font-family: ' Edu NSW ACT Foundation';
+}
+.btn {
+  width: 60px;
+  height: 30px;
+  position: relative;
+  left: -70px;
+  top: 30px;
+  border-radius: 70px;
+  outline: none;
+  border: none;
+  background-color: cadetblue;
+  box-shadow: 0 1px  3px black;
+  font-family: 'PT Sans';
+  font-size: 14px;
+}
+.btn:hover {
+  transform: scale(0.9);
+  background-color:black;
+  color: #fff;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+.item {
+  text-align: center;
+}
+.single-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 6em;
+   
+}
+.list {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap:2em;
+  font-size: 22px;
+  font-family:  monospace;
+  transition: 0.5s ease-in-out;
+}
